@@ -13,7 +13,9 @@ app.get('/test', (req, res) => {
 app.get('/healz', (req, res) => {
   res.send('healz!')
 })
-
+app.get('/one', (req, res) => {
+  res.send('one!')
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
